@@ -1,0 +1,20 @@
+.footer-icon {
+  padding-left: 10px;
+  color:#fff;
+  font-size: 15px;
+}
+.footer-icon:hover {
+  font-size: 18px;
+}
+
+.t:hover {
+  color: #5ca6f0;
+}
+
+.p:hover {
+  color: #f3444c;
+}
+
+.fb:hover {
+  color: #305fb3;
+}

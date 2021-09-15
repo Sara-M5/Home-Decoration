@@ -1,0 +1,19 @@
+.shelve-img {
+    width: 330px;
+    height: 330px;
+}
+.card {
+    background-color: #f9f9e5;
+    width: 330px;
+    height: 200px;
+    border: 2px solid #f8fde1;
+}
+
+.card p {
+    font-size: 30px;
+    font-family: 'Oleo Script Swash Caps', cursive; 
+  
+}
+.card-2 {
+    background-color: #e7f2d5;
+}
