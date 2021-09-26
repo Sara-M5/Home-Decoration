@@ -1,22 +1,31 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { HashLink as Link } from "react-router-hash-link";
 
 
 
 export default function Navbar() {
-/* 
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-
-    const CloseMobileMenu = () => setClick(false);
-
-*/
 
     return (
        <div>
         <nav className="navbar navbar-expand-sm fixed-top navbar-light" >
         <div className="container ">
-       
+        <div className="banner-title">Decoration</div>
+        
+         <button
+          className="navbar-toggler btn0"
+          data-toggle="collapse"
+          data-target="#navbarSuportedContent"
+          aria-controls="navbarSuportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarSuportedContent"
+        >
           <ul className="navbar-nav ">
             <li className="nav-item active">
               <Link className="nav-link" smooth to="/Home" exact>
@@ -40,8 +49,8 @@ export default function Navbar() {
             </li>
           
           </ul>
-
-          </div>
+         </div>
+        </div>
          
         
 
