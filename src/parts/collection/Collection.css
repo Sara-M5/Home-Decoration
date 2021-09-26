@@ -1,7 +1,10 @@
 .collection {
     background-color: #f5f9e5;
 }
+
 .collection-img {
+    width: 100%;
+    background-size: cover;
     height: 350px;
     border-radius: 3px;
     
